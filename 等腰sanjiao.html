@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function stringle(){
+				for(var i=1;i<=4;i++){
+					
+					//打空格
+					for(var j=3;j>=i;j--){
+						document.write("&ensp;");
+					}
+					
+					//打**
+					for(var k=1;k<=2*i-1;k++){
+						document.write("*");
+					}
+					
+					
+					document.write("<br>");
+				}
+			}
+			stringle()
+		</script>
+	</body>
+</html>
